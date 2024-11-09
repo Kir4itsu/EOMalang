@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="id" data-bs-theme="light">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EO Malang | Event Organizer Malang</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="EO Malang - Event Organizer Malang, MICE Malang - Event Organizer Family Gathering | Outbound | Reuni | Corporate Anniversary | Pensi | Seminar Malang Batu. call 082127119951">
+    <meta name="keywords" content="jasa mice eo event organizer planner malang batu, eo event organizer family gathering outbound reuni pensi seminar meeting malang batu bromo">
+    <meta name="author" content="EO Malang">
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon.ico">
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <style>
+        :root {
+            --primary-color: #dc3545;
+            --secondary-color: #6c757d;
+            --background-light: #f8f9fa;
+            --background-dark: #212529;
+            --text-light: #ffffff;
+            --text-dark: #212529;
+        }
+        
+        .dark-mode-toggle {
+            position: absolute;
+            right: 20px;
+        }
+
+         /* Light & Dark Mode */
+         body[data-bs-theme="light"] {
+            background-color: var(--background-light);
+            color: var(--text-dark);
+        }
+
+        body[data-bs-theme="dark"] {
+            background-color: var(--background-dark);
+            color: var(--text-light);
+        }
+        
+        .navbar, .footer {
+            background-color: var(--background-dark);
+        }
+
+
+        .hero-section {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+                        url('assets/images/hero-bg.jpg') center/cover;
+            min-height: 80vh;
+            display: flex;
+            align-items: center;
+        }
+        
+        .service-card {
+            transition: transform 0.3s ease;
+            border: none;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+        
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .cta-section {
+            background-color: #fff3f3;
+            padding: 5rem 0;
+        }
+        
+        .footer {
+            background-color: #212529;
+            color: white;
+            padding: 3rem 0;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="assets/images/logo-dark.png" alt="EO Malang" height="30">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact-us.html">Contact</a>
+                    </li>
+                </ul>
+            <!-- Dark Mode Toggle Button -->
+            <button class="btn btn-outline-light dark-mode-toggle ms-2" onclick="toggleDarkMode()">🌙</button>
+        </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero-section" id="home">
+        <div class="hero-slider">
+            <!-- Slides container will be populated by JavaScript -->
+        </div>
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <div class="container text-white text-center">
+                <h1 class="display-4 fw-bold mb-4">Event Organizer Malang</h1>
+                <p class="lead mb-4">Professional Event Planning & Management Services in Malang, Batu, and Bromo</p>
+                <a href="#contact" class="btn btn-primary btn-lg">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <style>
+    .hero-section {
+        position: relative;
+        min-height: 80vh;
+        overflow: hidden;
+    }
+
+    .hero-slider {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .hero-slide {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        transition: opacity 1s ease-in-out;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .hero-slide.active {
+        opacity: 1;
+    }
+
+    /* Overlay hitam terpisah */
+    .hero-overlay {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.6); /* Overlay hitam dengan opacity 0.6 */
+        z-index: 1;
+    }
+
+    .hero-content {
+        position: relative;
+        z-index: 2;
+        min-height: 80vh;
+        display: flex;
+        align-items: center;
+        width: 100%;
+    }
+
+    /* Memastikan gambar background selalu menutupi seluruh area */
+    .hero-section::before {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: black;
+        z-index: 0;
+    }
+    </style>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const sliderContainer = document.querySelector('.hero-slider');
+        const totalImages = 39;
+        let currentSlide = 0;
+        const slides = [];
+
+        // Create slides
+        for (let i = 1; i <= totalImages; i++) {
+            const slide = document.createElement('div');
+            slide.className = 'hero-slide';
+            slide.style.backgroundImage = `url('assets/images/products/img-${i}.png')`;
+            slides.push(slide);
+            sliderContainer.appendChild(slide);
+        }
+
+        // Show first slide
+        if (slides.length > 0) {
+            slides[0].classList.add('active');
+        }
+
+        // Auto slide function
+        function nextSlide() {
+            slides[currentSlide].classList.remove('active');
+            currentSlide = (currentSlide + 1) % slides.length;
+            slides[currentSlide].classList.add('active');
+        }
+
+        // Start auto sliding
+        setInterval(nextSlide, 5000);
+    });
+    </script>
+
+    <!-- Services Section -->
+<section class="py-5" id="services">
+    <div class="container">
+        <h2 class="text-center mb-5">Our Services</h2>
+        <div class="row g-4">
+            <!-- Family Gathering Card -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets/images/products/img-39.png" class="card-img-top" alt="Family Gathering" style="height: 250px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Family Gathering</h5>
+                        <p class="card-text">Create memorable experiences with our expertly planned family gathering events.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Outbound Activities Card -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets/images/products/img-1.png" class="card-img-top" alt="Outbound" style="height: 250px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Outbound Activities</h5>
+                        <p class="card-text">Team building and adventure activities in beautiful Malang and Batu.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Corporate Events Card -->
+            <div class="col-md-4">
+                <div class="card h-100 shadow-sm">
+                    <img src="assets/images/products/img-2.png" class="card-img-top" alt="Corporate Events" style="height: 250px; object-fit: cover;">
+                    <div class="card-body d-flex flex-column">
+                        <h5 class="card-title">Corporate Events</h5>
+                        <p class="card-text">Professional corporate event management for meetings, seminars, and anniversaries.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- CTA Section -->
+<section class="cta-section">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-lg-6">
+                <h2 class="mb-4">Get the Best Price & Services</h2>
+                <p class="mb-4">We provide comprehensive event planning services including:</p>
+                <ul class="list-unstyled">
+                    <li>✓ Transportation arrangements</li>
+                    <li>✓ Accommodation booking</li>
+                    <li>✓ Catering services</li>
+                    <li>✓ Audio-visual equipment</li>
+                    <li>✓ Venue selection and setup</li>
+                    <li>✓ Medical team support</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary btn-lg">Contact Us Now</a>
+            </div>
+            <div class="col-lg-6">
+                <div class="h-100" style="min-height: 400px;">
+                    <img src="assets/images/ecommerce/home/cta.webp" 
+                         alt="Event Planning" 
+                         class="img-fluid rounded w-100 h-100"
+                         style="object-fit: cover; object-position: center;">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+.cta-section {
+    background-color: #fff3f3;
+    padding: 5rem 0;
+}
+
+.cta-section .img-fluid {
+    max-height: 100%;
+    width: 100%;
+}
+
+@media (max-width: 991px) {
+    .cta-section .h-100 {
+        min-height: 300px !important;
+        margin-top: 2rem;
+    }
+}
+</style>
+
+    <!-- Contact Section -->
+    <section class="py-5" id="contact">
+        <div class="container">
+            <h2 class="text-center mb-5">Contact Us</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-8">
+                    <div class="card shadow-sm">
+                        <div class="card-body">
+                            <form id="contactForm">
+                                <div class="mb-3">
+                                    <label for="name" class="form-label">Name</label>
+                                    <input type="text" class="form-control" id="name" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="email" class="form-label">Email</label>
+                                    <input type="email" class="form-control" id="email" required>
+                                </div>
+                                <div class="mb-3">
+                                    <label for="message" class="form-label">Message</label>
+                                    <textarea class="form-control" id="message" rows="4" required></textarea>
+                                </div>
+                                <button type="submit" class="btn btn-primary">Send Message</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4" data-aos="fade-up">
+                    <h5>EO Malang</h5>
+                    <p>Professional event planning and management services in Malang, Batu, and Bromo areas.</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Contact Info</h5>
+                    <p>Griya Permata Alam FA 9, Ngijo, Karangploso<br>
+                    Malang 65152<br>
+                    Phone: +6282127119951</p>
+                </div>
+                <div class="col-md-4">
+                    <h5>Follow Us</h5>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/MalangEntertainment" class="text-white me-3">
+                            <i class="bi bi-facebook"></i> Facebook
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <hr class="mt-4">
+            <div class="text-center">
+                <p>&copy; 2024 EO Malang. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-arrow-up"></i>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    
+    <script>
+        // Initialize AOS
+        AOS.init({
+            duration: 1000,
+            once: true
+        });
+        
+        // Preloader
+        window.addEventListener('load', function() {
+            document.querySelector('.preloader').style.display = 'none';
+        });
+        
+        // Initialize Swiper
+        const swiper = new Swiper('.hero-swiper', {
+            effect: 'fade',
+            loop: true,
+            autoplay: {
+                delay: 5000,
+                disableOnInteraction: false,
+            },
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true
+            }
+        });
+        
+        // Populate Swiper slides
+        const totalImages = 39;
+        const swiperWrapper = document.querySelector('.swiper-wrapper');
+        
+        for (let i = 1; i <= totalImages; i++) {
+            const slide = document.createElement('div');
+            slide.className = 'swiper-slide';
+            slide.style.backgroundImage = `url('assets/images/products/img-${i}.png')`;
+            swiperWrapper.appendChild(slide);
+        }
+        
+        // Navbar scroll effect
+        window.addEventListener('scroll', function() {
+            if (window.scrollY > 50) {
+                document.querySelector('.navbar').classList.add('scrolled');
+            } else {
+                document.querySelector('.navbar').classList.remove('scrolled');
+            }
+        });
+
+        // Back to top button
+        window.onscroll = function() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("back-to-top").style.display = "block";
+            } else {
+                document.getElementById("back-to-top").style.display = "none";
+            }
+        };
+    </script>
+</body>
+</html>
