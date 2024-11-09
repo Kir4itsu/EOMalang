@@ -1,0 +1,98 @@
+[
+    {
+        "id":"1",
+        "brandName": "Michelin",
+        "companyLogo": "../assets/images/brands/img-1.png",
+        "productItems": "362"
+    },{
+        "id":"2",
+        "brandName": "Rolex",
+        "companyLogo": "../assets/images/brands/img-2.png",
+        "productItems": "471"
+    },{
+        "id":"3",
+        "brandName": "Huawel",
+        "companyLogo": "../assets/images/brands/img-3.png",
+        "productItems": "3654"
+    },{
+        "id":"4",
+        "brandName": "Puma",
+        "companyLogo": "../assets/images/brands/img-4.png",
+        "productItems": "1548"
+    },{
+        "id":"5",
+        "brandName": "Fastrack",
+        "companyLogo": "../assets/images/brands/img-5.png",
+        "productItems": "645"
+    },{
+        "id":"6",
+        "brandName": "Nautica",
+        "companyLogo": "../assets/images/brands/img-6.png",
+        "productItems": "702"
+    },{
+        "id":"7",
+        "brandName": "Mochup",
+        "companyLogo": "../assets/images/brands/img-7.png",
+        "productItems": "942"
+    },{
+        "id":"8",
+        "brandName": "Bosch",
+        "companyLogo": "../assets/images/brands/img-8.png",
+        "productItems": "3625"
+    },{
+        "id":"9",
+        "brandName": "Diesel",
+        "companyLogo": "../assets/images/brands/img-9.png",
+        "productItems": "415"
+    },{
+        "id":"10",
+        "brandName": "Reebok",
+        "companyLogo": "../assets/images/brands/img-10.png",
+        "productItems": "362"
+    },{
+        "id":"11",
+        "brandName": "Eagle",
+        "companyLogo": "../assets/images/brands/img-11.png",
+        "productItems": "650"
+    },{
+        "id":"12",
+        "brandName": "Adidas",
+        "companyLogo": "../assets/images/brands/img-12.png",
+        "productItems": "931"
+    },{
+        "id":"13",
+        "brandName": "Michelin",
+        "companyLogo": "../assets/images/brands/img-1.png",
+        "productItems": "1462"
+    },{
+        "id":"14",
+        "brandName": "Kinetic",
+        "companyLogo": "../assets/images/brands/img-13.png",
+        "productItems": "3621"
+    },{
+        "id":"15",
+        "brandName": "Soriana",
+        "companyLogo": "../assets/images/brands/img-14.png",
+        "productItems": "1024"
+    },{
+        "id":"16",
+        "brandName": "Puma",
+        "companyLogo": "../assets/images/brands/img-4.png",
+        "productItems": "1548"
+    },{
+        "id":"17",
+        "brandName": "Huawel",
+        "companyLogo": "../assets/images/brands/img-3.png",
+        "productItems": "3654"
+    },{
+        "id":"18",
+        "brandName": "Rolex",
+        "companyLogo": "../assets/images/brands/img-2.png",
+        "productItems": "471"
+    },{
+        "id":"19",
+        "brandName": "Michelin",
+        "companyLogo": "../assets/images/brands/img-1.png",
+        "productItems": "362"
+    }
+]

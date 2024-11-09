@@ -1,0 +1,112 @@
+[
+    {
+        "id":"1",
+        "sellerName": "Alfred Hurst",
+        "itemStock": "245",
+        "balance" : "$748.32k",
+        "email" : "alfredH@toner.com",
+        "phone":"415-778-3654",
+        "createDate":"18 Dec, 2018",
+        "accountStatus": "Inactive"
+    },
+    {
+        "id":"2",
+        "sellerName": "Tommy Carey",
+        "itemStock": "3982",
+        "balance" : "$1452.74k",
+        "email" : "careytommy@toner.com",
+        "phone":"963-012-7495",
+        "createDate":"02 Jan, 2023",
+        "accountStatus": "Active"
+    },
+    {
+        "id":"3",
+        "sellerName": "Cassius Brock",
+        "itemStock": "1571",
+        "balance" : "$341.81k",
+        "email" : "brock@toner.com",
+        "phone":"415-778-3654",
+        "createDate":"24 Nov, 2022",
+        "accountStatus": "Active"
+    },
+    {
+        "id":"4",
+        "sellerName": "Camilla Winters",
+        "itemStock": "1873",
+        "balance" : "$671.00k",
+        "email" : "camilla@toner.com",
+        "phone":"013-789-9876",
+        "createDate":"12 Jan, 2023",
+        "accountStatus": "Inactive"
+    },
+    {
+        "id":"5",
+        "sellerName": "Gabrielle Holden",
+        "itemStock": "2268",
+        "balance" : "$803.11k",
+        "email" : "gabrielle@toner.com",
+        "phone":"032-012-3654",
+        "createDate":"17 Nov, 2022",
+        "accountStatus": "Active"
+    },
+    {
+        "id":"6",
+        "sellerName": "Kristina Hooper",
+        "itemStock": "976",
+        "balance" : "$203.65k",
+        "email" : "kristina@toner.com",
+        "phone":"654-321-0789",
+        "createDate":"04 Oct, 2020",
+        "accountStatus": "Inactive"
+    },
+    {
+        "id":"7",
+        "sellerName": "Jacques Leon",
+        "itemStock": "2870",
+        "balance" : "$2145.20k",
+        "email" : "jacques@toner.com",
+        "phone":"094-951-3576",
+        "createDate":"07 Feb, 2015",
+        "accountStatus": "Active"
+    },
+    {
+        "id":"8",
+        "sellerName": "Theresa Crawford",
+        "itemStock": "2504",
+        "balance" : "$3468.41k",
+        "email" : "crawford@toner.com",
+        "phone":"364-953-0764",
+        "createDate":"28 Oct, 2014",
+        "accountStatus": "Active"
+    },
+    {
+        "id":"9",
+        "sellerName": "Alina Holland",
+        "itemStock": "703",
+        "balance" : "$351.91k",
+        "email" : "hollandalina@toner.com",
+        "phone":"275-754-9658",
+        "createDate":"16 Aug, 2016",
+        "accountStatus": "Active"
+    },
+    {
+        "id":"10",
+        "sellerName": "Edward Rogers",
+        "itemStock": "2419",
+        "balance" : "$1876.02k",
+        "email" : "edwardro@toner.com",
+        "phone":"546-010-0739",
+        "createDate":"25 Nov, 2021",
+        "accountStatus": "Inactive"
+    },
+    {
+        "id":"11",
+        "sellerName": "Camilla Winters",
+        "itemStock": "1873",
+        "balance" : "$671.00k",
+        "email" : "camilla@toner.com",
+        "phone":"013-789-9876",
+        "createDate":"12 Jan, 2023",
+        "accountStatus": "Inactive"
+    }
+]

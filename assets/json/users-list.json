@@ -1,0 +1,72 @@
+[
+	{
+		"id": "1",
+		"user_name": ["../assets/images/users/avatar-2.jpg", "Alfred Hurst"],		
+		"email_id": "alfredH@toner.com",
+		"date": "18 Dec, 2018",
+		"status": "Inactive"		
+	},
+	{
+		"id": "2",
+		"user_name": ["../assets/images/users/avatar-3.jpg", "Tommy Carey"],		
+		"email_id": "careytommy@toner.com",
+		"date": "02 Jan, 2023",
+		"status": "Active"
+	},
+	{
+		"id": "3",
+		"user_name": ["../assets/images/users/avatar-4.jpg", "Cassius Brock"],		
+		"email_id": "brock@toner.com",
+		"date": "24 Nov, 2022",
+		"status": "Active"
+	},
+	{
+		"id": "4",
+		"user_name": ["../assets/images/users/avatar-5.jpg", "Camilla Winters"],		
+		"email_id": "camilla@toner.com",
+		"date": "12 Jan, 2023",
+		"status": "Inactive"
+	},
+	{
+		"id": "5",
+		"user_name": ["../assets/images/users/avatar-6.jpg", "Gabrielle Holden"],		
+		"email_id": "gabrielle@toner.com",
+		"date": "17 Nov, 2022",
+		"status": "Active"
+	},
+	{
+		"id": "6",
+		"user_name": ["../assets/images/users/avatar-7.jpg", "Kristina Hooper"],		
+		"email_id": "kristina@toner.com",
+		"date": "04 Oct, 2020",
+		"status": "Inactive"
+	},
+	{
+		"id": "7",
+		"user_name": ["../assets/images/users/user-dummy-img.jpg", "Jacques Leon"],		
+		"email_id": "jacques@toner.com",
+		"date": "07 Feb, 2015",
+		"status": "Active"
+	},
+	{
+		"id": "8",
+		"user_name": ["../assets/images/users/avatar-8.jpg", "Theresa Crawford"],		
+		"email_id": "crawford@toner.com",
+		"date": "28 Oct, 2014",
+		"status": "Active"
+	},
+	{
+		"id": "9",
+		"user_name": ["../assets/images/users/avatar-9.jpg", "Alina Holland"],		
+		"email_id": "hollandalina@toner.com",
+		"date": "16 Aug, 2016",
+		"status": "Active"
+	},
+	{
+		"id": "10",
+		"user_name": ["../assets/images/users/avatar-10.jpg", "Edward Rogers"],		
+		"email_id": "edwardro@toner.com",
+		"date": "25 Nov, 2021",
+		"status": "Inactive"
+	}
+]

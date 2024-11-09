@@ -1,0 +1,1 @@
+var swiper=new Swiper(".productSwiper",{spaceBetween:10,slidesPerView:4,mousewheel:!0,freeMode:!0,watchSlidesProgress:!0,breakpoints:{992:{slidesPerView:4,spaceBetween:10,direction:"vertical"}}}),swiper2=new Swiper(".productSwiper2",{loop:!0,spaceBetween:10,navigation:{nextEl:".swiper-button-next",prevEl:".swiper-button-prev"},thumbs:{swiper:swiper}});
